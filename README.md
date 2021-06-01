@@ -1,11 +1,11 @@
 
-#### Подготовка приложения
+### Подготовка приложения
 
 - Импортировать базу urls_db.sql в PostgreSql
 - Пользователь: ruslan
 - Конфигурация .env
 ##
-#### 1. Тестирование сервиса с помощью Rest Client
+### 1. Тестирование сервиса с помощью Rest Client
 
 
 - Сохранить длинный Url (Вариант 1): 
@@ -26,16 +26,15 @@
 
 - Сохранить длинный Url (Вариант 2): 
 
-Запрос в браузере, передача параметров:
+Rest Client метод POST передача параметров:
 
 http://task-api-la-pg.pro/api/v1/save-url?form_long_url=https://very-long-uniform-resource-locator.com/18-websgjti5675ftgyhtes-every42-ftrfty2detyrtyveloper-should-visit-rityryght-now/
-
 
 - Сохранить длинный Url (Вариант 3) с помощью формы (от меня):
 
 Адрес: http://task-api-la-pg.pro/add-url
 ##
-#### 2. Проверка сокращенных ссылок
+### 2. Проверка сокращенных ссылок
 
 - Ответ записи Json пример:
 
